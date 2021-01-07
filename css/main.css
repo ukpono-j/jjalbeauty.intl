@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .what{
+    padding: 0px 6px;
+} */
+.img-1{
+    /* background-position: center  !important; */
+    background-color: rgb(70, 64, 64);
+    background-blend-mode: soft-light;
+    object-fit: contain;
+    object-position: center;
+}
+.welcome-text h2{
+    color: white !important;
+}
+.img-p{
+    color: white !important;
+}
+.logo{
+    width: 97px;
+    height: 94px;
+}
+.akame-btn{
+    background: #951C61 !important;
+    outline: #951C61 !important;
+    border: #951C61 !important;
+    color: white !important;
+}
+/* .active:hover{
+    color: #951C61 !important;
+} */
+#scrollUp{
+    background: #951C61 !important;
+}
+.classynav ul li.active a::before {
+    width: 80%;
+    height: 2px;
+    background-color:#951C61 !important;
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    z-index: 1;
+    content: '';
+}
+@media(min-width: 1200px){
+    .welcome-text h2{
+        font-size: 60px !important;
+    }
+}
+
+@media(max-width: 578px)
+{
+    .logo{
+        width: 100px;
+        height: 70px;
+    } 
+}
+
+@media(max-width: 760px)
+{
+    .logo{
+        width:97px;
+        height: 70px;
+    } 
+}
+
+@media(max-width: 879px)
+{
+    .logo{
+        width:97px;
+        height: 70px;
+    } 
+}
+
+@media(max-width: 989px)
+{
+    .logo{
+        width:90px;
+        height: 70px;
+    }
+}
